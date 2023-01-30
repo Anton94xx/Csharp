@@ -6,7 +6,8 @@
 
 Console.WriteLine("Напишите число: ");
 int num = int.Parse(Console.ReadLine());
-int count = 1;
+int count = 2;
+Console.WriteLine("Четные числа до: " + num);
 while (count <= num)
 {
     Console.Write(count +" ");
