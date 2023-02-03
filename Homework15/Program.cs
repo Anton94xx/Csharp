@@ -8,12 +8,13 @@
 Console.WriteLine("Введите число: ");
 int num = int.Parse(Console.ReadLine());
 
-if (num >= 1 && num <= 5);
+if (num >= 1 && num <= 7)
 {
-    Console.WriteLine("нет");
+  if (num == 6 || num == 7)  Console.WriteLine("да");
+  else Console.WriteLine("нет");
 }
 
-else (num >= 6 && num <= 7);
+else 
 {
-  Console.WriteLine("да");  
+    Console.WriteLine("Неверное число");
 }
