@@ -14,7 +14,7 @@ Console.WriteLine("Введите координату Y2: ");
 long y2 = int.Parse(Console.ReadLine());
 long length;
 
-if ((x1 > 0) && (x2 > 0))
+if ((x1 >= 0) && (x2 >= 0))
 {
     if (x1 > x2)
     {
@@ -48,7 +48,7 @@ else
     }
 }
 long width;
-if ((y1 > 0) && (y2 > 0))
+if ((y1 >= 0) && (y2 >= 0))
 {
     if (y1 > y2)
     {
