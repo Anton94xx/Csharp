@@ -3,6 +3,7 @@
 
 // 3, 5 -> 243 (3⁵)
 // 2, 4 -> 16
+
 static int GetPow(int a, int b)
 {
     int result = 1;
@@ -13,7 +14,6 @@ static int GetPow(int a, int b)
     }
     return result;
 }
-
 
 Console.WriteLine("Введите два числа (A и B):");
 
