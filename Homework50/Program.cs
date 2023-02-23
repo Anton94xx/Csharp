@@ -30,10 +30,10 @@ PrintArray(arr);
 
 // Ввод индексов элемента
 Console.Write("Введите номер строки: ");
-int i = int.Parse(Console.ReadLine());
+int i = int.Parse(Console.ReadLine()!);
 
 Console.Write("Введите номер столбца: ");
-int j = int.Parse(Console.ReadLine());
+int j = int.Parse(Console.ReadLine()!);
 
 // Поиск значения элемента или вывод сообщения об отсутствии элемента
 int? value = GetElementValue(arr, i, j);
